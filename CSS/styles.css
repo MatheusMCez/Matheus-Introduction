@@ -1,0 +1,392 @@
+/* -------------- TAG SELECTORS ------------------  */
+body {
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  font-family: "Rokkitt", sans-serif;
+  color: #eee8d2;
+  background-color: #e4f9f5;
+}
+
+h1 {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-family: "Oswald", serif;
+  font-size: 7rem;
+  color: #eee8d2;
+  /* #606c38 */
+  line-height: 1.3;
+  font-weight:bolder;
+}
+
+h2 {
+  font-family: 'Crimson Text', serif;
+  font-weight: bolder;
+  color: #eee8d2;
+  /* #dda15e */
+  font-weight: normal;
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Crimson Text', serif;
+  color: #eee8d2;
+  /* #bc6c25 */
+}
+
+p {
+  line-height: 1.5;
+}
+
+hr {
+  border: none;
+  border-top: 10px dotted;
+  width: 10%;
+  border-color: #10110f;
+  margin: 150px auto;
+  clear: both;
+}
+
+
+/* -------------- CLASS SELECTORS ------------------  */
+.head_container {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  height: 100vh;
+}
+
+.span_front {
+  text-decoration: underline;
+}
+
+.intro_container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.matheus_img {
+  padding: 100px 10px 150px 0px; 
+  width: 40%;
+  float: left;
+}
+
+.h3_intro {
+  padding-top: 50px;
+  text-align: right;
+  font-size: 5rem;
+  color: #000;
+}
+
+.p_intro {
+  text-align: right;
+  font-size: 1.5em;
+  padding-bottom: 50px;
+  color: #000;
+}
+
+.education_container {
+  width: 500px;
+  height: 45em;
+}
+
+.h3_acad {
+  font-size: 3rem;
+  margin-top: 5px;
+}
+
+.ed_lado {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.experience_container {
+  width: 500px;
+  height: 45em;
+}
+
+.h3_exp {
+  font-size: 3rem;
+  margin-top: 5px;
+}
+
+.h4_exp {
+  text-align: left;
+}
+
+.p_exp {
+  text-align: left;
+}
+
+.lang_container {
+  width: 500px;
+  height: 45em;
+}
+
+.h3_idioma {
+  font-size: 3rem;
+  margin-top: 5px;
+}
+
+.languages {
+  text-align: left;
+}
+
+.skills_container {
+  width: 500px;
+  height: 45em;
+}
+
+.h3_skill {
+  font-size: 3rem;
+  margin-top: 5px;
+}
+
+.skills {
+  text-align: left;
+}
+
+.awards_container {
+  width: 500px;
+  height: 45em;
+}
+
+.h3_awrds {
+  font-size: 3rem;
+  margin-top: 5px;
+}
+
+.awards {
+  text-align: left;
+}
+
+/* -------------- FOOTER SELECTORS ------------------  */
+
+.rodape {
+  background-color: #606c38;
+  padding-top: 50px;
+}
+
+.footer-link {
+  margin: 0 20px;
+  color: #eee8d2;
+  /* #dda15e */
+  font-family: 'Libre Baskerville', serif;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+}
+
+.direitos_autorais {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px 0 0 0;
+}
+
+.direitos_autorais2 {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+/* -------------- BUTTON SELECTORS ------------------  */
+
+.btn_link {
+  background: #606c38;
+  background-image: -webkit-linear-gradient(top, #606c38, #bc6c25);
+  background-image: -moz-linear-gradient(top, #606c38, #bc6c25);
+  background-image: -ms-linear-gradient(top, #606c38, #bc6c25);
+  background-image: -o-linear-gradient(top, #606c38, #bc6c25);
+  background-image: linear-gradient(to bottom, #606c38, #bc6c25);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  height: 200px;
+  margin-right: 50px;
+  border-radius: 50%;
+  font-family: 'Libre Baskerville', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn_link:hover {
+  background: #dda15e;
+  background-image: -webkit-linear-gradient(top, #dda15e, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #dda15e, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #dda15e, #2bc4ad);
+  background-image: -o-linear-gradient(top, #dda15e, #2bc4ad);
+  background-image: linear-gradient(to bottom, #dda15e, #2bc4ad);
+  text-decoration: none;
+}
+
+/* -------------- GRADIENT BACKGROUND ------------------  */
+
+.gradient-background {
+  background: linear-gradient(300deg, #020202, #080808, #10110f);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* -------------- SWIPER ------------------------ */
+.swiper {
+  width: 70%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+/* -------------- ID SELECTORS ------------------  */
+
+
+
+/* -------------- HIDDEN CLASSES ----------------  */
+
+.rotatable {
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
+  transition: all 0.9s ease-in-out;
+}
+
+.rotated90 { 
+  transform:rotate(360deg); 
+  -webkit-transform:rotate(360deg); 
+  -moz-transform:rotate(360deg); 
+  -o-transform:rotate(360deg); 
+}
+
+/* -------------- MEDIA QUERIES ------------------  */
+
+@media(max-width: 1100px) and (min-width: 501px){ 
+
+  .intro_container {
+    width: 80%;
+  }
+
+  .h3_intro{
+    clear: both;
+  }
+  
+  .matheus_img {
+    width: 50%;
+    padding-left: 25%;
+    padding-bottom: 50px;
+  }
+  
+  .h3_intro {
+    padding-top: 0;
+    text-align: center;
+    font-size: 5rem;
+    color: #000;
+
+  }
+  
+  .p_intro {
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 50px;
+    color: #000;
+  }
+
+  .swiper {
+    width: 80%;
+    height: 100%;
+  }
+
+}
+
+@media(max-width: 500px) {
+
+  #myname {
+    font-size: 3.5rem;
+  }
+
+  #h2_header {
+    font-size: 1.3rem;
+  }
+
+  .h2 {
+    font-size: 1 em;
+  }
+
+
+  .intro_container {
+    width: 80%;
+  }
+
+  .h3_intro{
+    clear: both;
+  }
+  
+  .matheus_img {
+    width: 50%;
+    padding-left: 25%;
+    padding-bottom: 50px;
+  }
+  
+  .h3_intro {
+    padding-top: 0;
+    text-align: center;
+    font-size: 3rem;
+    color: #000;
+
+  }
+  
+  .p_intro {
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 50px;
+    color: #000;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
